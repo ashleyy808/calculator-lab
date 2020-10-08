@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+   
+    font-family: 'Helvetica';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    border: 3px solid black;
+}
+
+div {
+    border: 1px solid black;
+}
+
+
+#keypad {
+    
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 150px;
+    font-size: 65px;
+    font-weight: 600;
+    
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    width: 600px;
+}
+
+.output {
+    text-align: right;
+    border: 3px solid black;
+    height: 100px;
+    margin: 10px 5px 10px 5px;
+    width: 600px;
+    font-size: 65px;
+}
